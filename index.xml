@@ -2,82 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gunmo&#39;s Blog</title>
-    <link>https://ggm1207.github.io/index.html/</link>
+    <link>https://ggm1207.github.io/</link>
     <description>Recent content on Gunmo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ggm1207.github.io/index.html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ggm1207.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://ggm1207.github.io/index.html/archives/</link>
+      <link>https://ggm1207.github.io/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ggm1207.github.io/index.html/archives/</guid>
+      <guid>https://ggm1207.github.io/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guia de Sintaxe Markdown</title>
-      <link>https://ggm1207.github.io/index.html/post/markdown-syntax.pt/</link>
+      <link>https://ggm1207.github.io/post/markdown-syntax.pt/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ggm1207.github.io/index.html/post/markdown-syntax.pt/</guid>
+      <guid>https://ggm1207.github.io/post/markdown-syntax.pt/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Este artigo oferece um exemplo básico de uma tradução em Português. O restante conteúdo não foi traduzido.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Artigo original: https://ggm1207.github.io/index.html/post/markdown-syntax/&lt;/p&gt;
+&lt;p&gt;Artigo original: https://ggm1207.github.io/post/markdown-syntax/&lt;/p&gt;
 &lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://ggm1207.github.io/index.html/post/markdown-syntax/</link>
+      <link>https://ggm1207.github.io/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ggm1207.github.io/index.html/post/markdown-syntax/</guid>
+      <guid>https://ggm1207.github.io/post/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rich Content</title>
-      <link>https://ggm1207.github.io/index.html/post/rich-content/</link>
+      <link>https://ggm1207.github.io/post/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ggm1207.github.io/index.html/post/rich-content/</guid>
+      <guid>https://ggm1207.github.io/post/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://ggm1207.github.io/index.html/post/placeholder-text/</link>
+      <link>https://ggm1207.github.io/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ggm1207.github.io/index.html/post/placeholder-text/</guid>
+      <guid>https://ggm1207.github.io/post/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://ggm1207.github.io/index.html/post/math-typesetting/</link>
+      <link>https://ggm1207.github.io/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ggm1207.github.io/index.html/post/math-typesetting/</guid>
+      <guid>https://ggm1207.github.io/post/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Emoji Support</title>
-      <link>https://ggm1207.github.io/index.html/post/emoji-support/</link>
+      <link>https://ggm1207.github.io/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ggm1207.github.io/index.html/post/emoji-support/</guid>
+      <guid>https://ggm1207.github.io/post/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://ggm1207.github.io/index.html/about/</link>
+      <link>https://ggm1207.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ggm1207.github.io/index.html/about/</guid>
+      <guid>https://ggm1207.github.io/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
  https://github.</description>
@@ -85,10 +85,10 @@ Hugo makes use of a variety of open source projects including:
     
     <item>
       <title>Sobre</title>
-      <link>https://ggm1207.github.io/index.html/about.pt/</link>
+      <link>https://ggm1207.github.io/about.pt/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ggm1207.github.io/index.html/about.pt/</guid>
+      <guid>https://ggm1207.github.io/about.pt/</guid>
       <description>Tradução em português. Apenas para demonstração, o resto do artigo não está traduzido.
 Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.</description>
     </item>
