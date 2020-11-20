@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gunmo&#39;s Blog</title>
-    <link>https://ggm1207.github.io/en/</link>
+    <link>https://ggm1207.github.io/index.html/en/</link>
     <description>Recent content on Gunmo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright><atom:link href="https://ggm1207.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright><atom:link href="https://ggm1207.github.io/index.html/en/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
