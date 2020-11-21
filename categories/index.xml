@@ -16,41 +16,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>sintaxe</title>
-      <link>/categories/sintaxe/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/sintaxe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>syntax</title>
-      <link>/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/syntax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>temas</title>
-      <link>/categories/temas/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/temas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/themes/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
