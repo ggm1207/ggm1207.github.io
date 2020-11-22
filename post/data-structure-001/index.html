@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="kr" data-figures="">
+<html lang="kr" data-figures="true" class="page">
   <head>
-<title>Categories | Gunmo&#39;s Blog</title>
+<title>자료구조 - 순환(Recursion) | Gunmo&#39;s Blog</title>
 <meta charset="utf-8">
 <meta name="generator" content="Hugo 0.78.0" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -16,17 +16,15 @@
 </script>
 <meta property="og:locale" content="kr" />
 
-<meta property="og:locale:alternate" content="en" />
-
 <meta property="og:type" content="article">
-<meta name="description" content="">
+<meta name="description" content="Recursion도 자료구조였다. Recursion에 대해서 배워보자.">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Categories" />
-<meta property="og:url" content="/categories/" />
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="/images/thumbnail.png" />
+<meta name="twitter:title" content="자료구조 - 순환(Recursion)" />
+<meta property="og:url" content="/post/data-structure-001/" />
+<meta property="og:title" content="자료구조 - 순환(Recursion)" />
+<meta property="og:description" content="Recursion도 자료구조였다. Recursion에 대해서 배워보자." />
+<meta property="og:image" content="/icons/android-chrome-512x512.png" />
 <link rel="apple-touch-icon" sizes="180x180" href='/icons/apple-touch-icon.png'>
 <link rel="icon" type="image/png" sizes="32x32" href='/icons/favicon-32x32.png'>
 <link rel="manifest" href='/icons/site.webmanifest'>
@@ -34,8 +32,7 @@
 <meta name="msapplication-TileColor" content="#002538">
 <meta name="theme-color" content="#002538">
 
-<link rel="canonical" href="/categories/">
-<link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="Gunmo's Blog" />
+<link rel="canonical" href="/post/data-structure-001/">
 
     
 
@@ -183,8 +180,9 @@
   
   
     
+    
   
-  <body data-code="7" data-lines="true" id="documentTop">
+  <body data-code="12" data-lines="false" id="documentTop">
 
 <header class="nav_header">
   <nav class="nav">
@@ -272,62 +270,175 @@
 </header>
 
     <main>
-
+  
 <div class="grid-inverse wrap content">
-  <ul class="posts" id="posts">
-      <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="/categories/data-structure/">Data-Structure</a>
-      </h3>
-      <div class="post_meta">
+  <article class="post_content">
+    <h1 class="post_title">자료구조 - 순환(Recursion)</h1><div class="post_meta">
   <svg class="icon">
   <use xlink:href="#calendar"></use>
 </svg>
   <span class="post_date">
     Nov 22, 2020</span>
+    <a href='/tags/recursion' class="post_tag button button_translucent">Recursion
+    </a>
 </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div>
-          <p class="pale"></p>
-          <a href="/categories/data-structure/" class="excerpt_more button">더보기 ...</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-      <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="/categories/talk/">TALK</a>
-      </h3>
-      <div class="post_meta">
-  <svg class="icon">
-  <use xlink:href="#calendar"></use>
+    
+<div class="post_share">
+  Share on:
+  <a href="https://twitter.com/intent/tweet?text=%ec%9e%90%eb%a3%8c%ea%b5%ac%ec%a1%b0%20-%20%ec%88%9c%ed%99%98%28Recursion%29&url=%2fpost%2fdata-structure-001%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <svg class="icon">
+  <use xlink:href="#twitter"></use>
 </svg>
-  <span class="post_date">
-    Nov 20, 2020</span>
+  </a>
+  <a href="https://www.facebook.com/sharer.php?u=%2fpost%2fdata-structure-001%2f&t=%ec%9e%90%eb%a3%8c%ea%b5%ac%ec%a1%b0%20-%20%ec%88%9c%ed%99%98%28Recursion%29" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <svg class="icon">
+  <use xlink:href="#facebook"></use>
+</svg>
+  </a>
+  <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+    <svg class="icon">
+  <use xlink:href="#linkedin"></use>
+</svg>
+  </a>
+  <a href="/post/data-structure-001/" title="Copy Link" class="link link_yank">
+    <svg class="icon">
+  <use xlink:href="#copy"></use>
+</svg>
+  </a>
 </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div>
-          <p class="pale"></p>
-          <a href="/categories/talk/" class="excerpt_more button">더보기 ...</a>
-        </div>
-      </div>
-    </div>
-  </li>
+    
+    <p><strong>Insert Lead paragraph here.</strong></p>
+<p>예전에 공부한 것을 다시 복습하는 느낌으로 보고 있는데 순환(Recursion)이 자료구조라는게 좀 놀라웠다.</p>
+<p>왜냐하면 배열이나 트리같은 경우에는 직접 메모리에 할당을 하기 때문에 직관적으로 이해가 되는데 순환은 그렇지 않기 때문이다.</p>
+<p>생각해보면 프로그램은 알고리즘과 자료구조로 이뤄지는데 fibonacci를 재귀로 푸는 것은 자료구조를 Recursion을 썼다는 것을 의미한다. (그렇겠지?)</p>
+<blockquote>
+<p>fib(n) = fib(n-1) + fib(n-2)</p>
+</blockquote>
+<p>그렇다면 순환의 정의는 무엇일까?</p>
+<blockquote>
+<ul>
+<li>알고리즘이나 함수가 수행 도중에 자기 자신을 다시 호출하여 문제를 해결하는 기법</li>
+</ul>
+</blockquote>
+<p>예전에 교수님한테 들었던 기억으로는 재귀로 짤 수 있는 코드는 반복문을 사용해서도 짤 수 있다고 <code>증명</code>이 됐다고 들었다. 물론 재귀가 복잡해질 수록 반복문을 사용해서 구현하는 것은 매우 어려워진다.</p>
+<p><strong>순환은 그럼 언제 쓰는 것이 좋을까?</strong></p>
+<p>반복문이 성능이 좋다면 구현이 어려워도 반복문을 써야하지 않을까? 그럼 재귀는 어디서 쓰이는 걸까?</p>
+<p>위 질문에 대한 답은 <a href="https://kldp.org/node/134556">여기</a>에 잘 정리되어 있다. 댓글을 읽다 보면 머리가 맑아지는 느낌이 들 정도로 설명이 잘 되어 있다.</p>
+<p>글을 정리하면 아래와 같습니다.</p>
+<ol>
+<li>직관적이다. 코드를 증명하기가 쉬워진다.</li>
+<li>사용이 쉽다.</li>
+<li>오류를 줄이는 데에 도움이 된다.</li>
+</ol>
+<p><strong>직관적이다. 코드를 증명하기가 쉬워진다.</strong></p>
+<p>재귀함수를 사용하면 점화식을 사용해서 똑같이 구현할 수 있습니다.</p>
+<p>피보나치의 점화식:
+$$
+a_{n} =a_{n-1} +a_{n-2}
+$$
+피보나치 구현:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python3" data-lang="python3"><span class="ln">1</span><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<span class="ln">2</span>    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span> <span class="k">return</span> <span class="n">n</span>
+<span class="ln">3</span>    <span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+</code></pre></div><p><strong>사용이 쉽다.</strong></p>
+<p>위 문항과 일맥상통하는 얘기입니다.</p>
+<p><strong>오류를 줄이는 데에 도움이 된다.</strong></p>
+<p>복잡한 프로그램을 구현 해본 경험이 없을 수록 3번 문항은 와닿지 않을 수도 있습니다.</p>
+<p>프로그램을 작성하다보면 변수가 많아질수록 복잡하다는 것을 느낍니다. 변수가 많다는 것은 그만큼 제어할 것이 많다는 것을 의미하니깐요.</p>
+<p>근데 재귀로 작성을 하게 되면 이러한 변수를 줄일 수가 있습니다. 변수로 인해 발생할 수 있는 오류또한 해결할 수 있습니다.</p>
+<p><strong>Example</strong></p>
+<p>예전에 작성해놨던 코드입니다.</p>
+<p>재귀에 대한 간결함을 직접 느끼실려면 하노이탑 문제를 반복문과 재귀로 각각 구현해보는 것을 추천해드립니다.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python3" data-lang="python3"><span class="ln"> 1</span><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+<span class="ln"> 2</span>    <span class="k">return</span> <span class="n">n</span> <span class="o">*</span> <span class="n">factorial</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="k">else</span> <span class="mi">1</span>
+<span class="ln"> 3</span>
+<span class="ln"> 4</span>
+<span class="ln"> 5</span><span class="k">def</span> <span class="nf">factorial_iter</span><span class="p">(</span><span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+<span class="ln"> 6</span>    <span class="n">result</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="ln"> 7</span>    <span class="k">while</span> <span class="n">n</span><span class="p">:</span>
+<span class="ln"> 8</span>        <span class="n">result</span> <span class="o">*=</span> <span class="n">n</span>
+<span class="ln"> 9</span>        <span class="n">n</span> <span class="o">-=</span> <span class="mi">1</span>
+<span class="ln">10</span>    <span class="k">return</span> <span class="n">result</span>
+<span class="ln">11</span>
+<span class="ln">12</span>
+<span class="ln">13</span><span class="k">def</span> <span class="nf">slow_power</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+<span class="ln">14</span>    <span class="n">result</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="ln">15</span>    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<span class="ln">16</span>        <span class="n">result</span> <span class="o">*=</span> <span class="n">x</span>
+<span class="ln">17</span>    <span class="k">return</span> <span class="n">result</span>
+<span class="ln">18</span>
+<span class="ln">19</span>
+<span class="ln">20</span><span class="k">def</span> <span class="nf">power</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+<span class="ln">21</span>    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<span class="ln">22</span>        <span class="k">return</span> <span class="mi">1</span>
+<span class="ln">23</span>    <span class="k">elif</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span><span class="p">:</span>
+<span class="ln">24</span>        <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">power</span><span class="p">(</span><span class="n">x</span> <span class="o">**</span> <span class="mi">2</span><span class="p">,</span> <span class="n">n</span> <span class="o">//</span> <span class="mi">2</span><span class="p">)</span>
+<span class="ln">25</span>    <span class="k">else</span><span class="p">:</span>
+<span class="ln">26</span>        <span class="k">return</span> <span class="n">power</span><span class="p">(</span><span class="n">x</span> <span class="o">**</span> <span class="mi">2</span><span class="p">,</span> <span class="n">n</span> <span class="o">//</span> <span class="mi">2</span><span class="p">)</span>
+<span class="ln">27</span>
+<span class="ln">28</span>
+<span class="ln">29</span><span class="k">def</span> <span class="nf">power_iter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+<span class="ln">30</span>    <span class="n">odd_value</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="ln">31</span>
+<span class="ln">32</span>    <span class="k">while</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+<span class="ln">33</span>        <span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span><span class="p">:</span>
+<span class="ln">34</span>            <span class="n">odd_value</span> <span class="o">*=</span> <span class="n">x</span>
+<span class="ln">35</span>            <span class="n">x</span> <span class="o">*=</span> <span class="n">x</span>
+<span class="ln">36</span>            <span class="n">n</span> <span class="o">//=</span> <span class="mi">2</span>  <span class="c1"># n = (n - 1) / 2</span>
+<span class="ln">37</span>        <span class="k">else</span><span class="p">:</span>
+<span class="ln">38</span>            <span class="n">x</span> <span class="o">*=</span> <span class="n">x</span>
+<span class="ln">39</span>            <span class="n">n</span> <span class="o">//=</span> <span class="mi">2</span>
+<span class="ln">40</span>
+<span class="ln">41</span>    <span class="k">return</span> <span class="n">odd_value</span> <span class="o">*</span> <span class="n">x</span>
+<span class="ln">42</span>
+<span class="ln">43</span>
+<span class="ln">44</span><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<span class="ln">45</span>    <span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span> <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="k">else</span> <span class="n">n</span>
+<span class="ln">46</span>
+<span class="ln">47</span>
+<span class="ln">48</span><span class="k">def</span> <span class="nf">fib_iter</span><span class="p">(</span><span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<span class="ln">49</span>    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+<span class="ln">50</span>        <span class="k">return</span> <span class="n">n</span>
+<span class="ln">51</span>    <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span>
+<span class="ln">52</span>    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+<span class="ln">53</span>        <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="ln">54</span>    <span class="k">return</span> <span class="n">b</span>
+<span class="ln">55</span>
+<span class="ln">56</span>
+<span class="ln">57</span><span class="k">def</span> <span class="nf">comb</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
+<span class="ln">58</span>    <span class="k">return</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">or</span> <span class="n">n</span> <span class="o">==</span> <span class="n">k</span> <span class="k">else</span> <span class="n">comb</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">k</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">comb</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span></code></pre></div>
+<p><strong>Reference</strong></p>
+<ul>
+<li><a href="https://kldp.org/node/134556">https://kldp.org/node/134556</a></li>
+</ul>
+<p><a href='https://www.freepik.com/photos/business'>Thumbnail photo created by Racool_studio - <a href="http://www.freepik.com">www.freepik.com</a></a></p>
 
-    <li>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-ggm1207-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-
-    </li>
-  </ul>
+    
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     
@@ -337,9 +448,6 @@
     
     <h2 class="mt-4">Recent Posts</h2>
     
-      
-      <a href="/post/data-structure-001/" class="nav-link">자료구조 - 순환(Recursion)</a> <br>
-      
       
       <a href="/post/001-blog-start/" class="nav-link">첫 게시글입니다</a> <br>
       
@@ -385,8 +493,6 @@
 </aside>
 
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

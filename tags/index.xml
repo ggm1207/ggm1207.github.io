@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Gunmo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 20 Nov 2020 18:33:16 +0900</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 07:52:03 +0900</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recursion</title>
+      <link>/tags/recursion/</link>
+      <pubDate>Sun, 22 Nov 2020 07:52:03 +0900</pubDate>
+      
+      <guid>/tags/recursion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>NO-TAG</title>
       <link>/tags/no-tag/</link>
