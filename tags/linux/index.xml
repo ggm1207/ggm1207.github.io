@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Gunmo&#39;s Blog</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in linux on Gunmo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 23 Nov 2020 09:31:02 +0900</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux에서 SSH로 Window Server 이용하기</title>
+      <link>/hobby/trading-bot-002/</link>
+      <pubDate>Mon, 23 Nov 2020 09:31:02 +0900</pubDate>
+      
+      <guid>/hobby/trading-bot-002/</guid>
+      <description>이전에 올렸던 포스팅에서는 Azure를 사용해서 Window Server를 구성했습니다. 하지만 SSH 접속이 잘 안 되어서 RDP를 사용해서 접속을 했는데.. terminal을 자주 사용하던 저에게는 많이 불편했습니다. ( 이렇게는 코딩을 할 수 없어.. )
+그래서 열심히 구글링한 결과 openSSH-Server를 Window Server에 설치하면 Linux에서 Window로 SSH를 사용해서 접근할 수 있다고 합니다. 그냥 설치하기에는 궁금한 게 많으니 RDP와 SSH에 대해서 알아보도록 하겠습니다. SSH는 알고 있었지만 RDP는 처음 들어보네요.
+RDP란 원격 데스크톱 프로토콜(Remote Desktop Protocol, 줄여서 RDP)은 마이크로소프트사가 개발한 사유 프로토콜로, 다른 컴퓨터에 그래픽 사용자 인터페이스를 제공하는 프로토콜이다.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,6 +5,29 @@
     <link>/hobby/</link>
     <description>Recent content in Posts on Gunmo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright><atom:link href="/hobby/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 23 Nov 2020 09:31:02 +0900</lastBuildDate><atom:link href="/hobby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux에서 SSH로 Window Server 이용하기</title>
+      <link>/hobby/trading-bot-002/</link>
+      <pubDate>Mon, 23 Nov 2020 09:31:02 +0900</pubDate>
+      
+      <guid>/hobby/trading-bot-002/</guid>
+      <description>이전에 올렸던 포스팅에서는 Azure를 사용해서 Window Server를 구성했습니다. 하지만 SSH 접속이 잘 안 되어서 RDP를 사용해서 접속을 했는데.. terminal을 자주 사용하던 저에게는 많이 불편했습니다. ( 이렇게는 코딩을 할 수 없어.. )
+그래서 열심히 구글링한 결과 openSSH-Server를 Window Server에 설치하면 Linux에서 Window로 SSH를 사용해서 접근할 수 있다고 합니다. 그냥 설치하기에는 궁금한 게 많으니 RDP와 SSH에 대해서 알아보도록 하겠습니다. SSH는 알고 있었지만 RDP는 처음 들어보네요.
+RDP란 원격 데스크톱 프로토콜(Remote Desktop Protocol, 줄여서 RDP)은 마이크로소프트사가 개발한 사유 프로토콜로, 다른 컴퓨터에 그래픽 사용자 인터페이스를 제공하는 프로토콜이다.</description>
+    </item>
+    
+    <item>
+      <title>Azure에서 Window Server구성하기</title>
+      <link>/hobby/trading-bot-001/</link>
+      <pubDate>Sat, 21 Nov 2020 19:07:56 +0900</pubDate>
+      
+      <guid>/hobby/trading-bot-001/</guid>
+      <description>제가 해보고 싶었던 것들 중 하나가 traiding-bot 구현하기입니다. 미리 구현한 전략을 사용하여 스스로 수익을 만들어내는 traiding-bot이라니 멋지지 않습니까? ( 마이너스만 찍힌다면 다른 이야기 )
+우선 traiding-Bot을 구현하려면 증권사에서 제공하는 API를 사용해야 합니다. 제공해주는 API로는 키움의 OpenAPI, 대신의 Cybos/Creon Plus API, Ebest의 Xing API가 있습니다. 어느 API를 사용해도 Window서버 사용에 그리고 32bit 환경을 구성해야만 한다고 합니다. ( 공인인증서 문제라고 하네요. )
+Ubuntu를 OS로 사용하는 저 같은 경우에는 어쩔 수 없이 Window 서버를 구성해야 합니다.</description>
+    </item>
+    
   </channel>
 </rss>

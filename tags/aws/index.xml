@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on Gunmo&#39;s Blog</title>
+    <link>/tags/aws/</link>
+    <description>Recent content in AWS on Gunmo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 21 Nov 2020 19:07:56 +0900</lastBuildDate><atom:link href="/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure에서 Window Server구성하기</title>
+      <link>/hobby/trading-bot-001/</link>
+      <pubDate>Sat, 21 Nov 2020 19:07:56 +0900</pubDate>
+      
+      <guid>/hobby/trading-bot-001/</guid>
+      <description>제가 해보고 싶었던 것들 중 하나가 traiding-bot 구현하기입니다. 미리 구현한 전략을 사용하여 스스로 수익을 만들어내는 traiding-bot이라니 멋지지 않습니까? ( 마이너스만 찍힌다면 다른 이야기 )
+우선 traiding-Bot을 구현하려면 증권사에서 제공하는 API를 사용해야 합니다. 제공해주는 API로는 키움의 OpenAPI, 대신의 Cybos/Creon Plus API, Ebest의 Xing API가 있습니다. 어느 API를 사용해도 Window서버 사용에 그리고 32bit 환경을 구성해야만 한다고 합니다. ( 공인인증서 문제라고 하네요. )
+Ubuntu를 OS로 사용하는 저 같은 경우에는 어쩔 수 없이 Window 서버를 구성해야 합니다.</description>
+    </item>
+    
+  </channel>
+</rss>

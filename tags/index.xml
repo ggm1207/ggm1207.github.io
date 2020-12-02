@@ -6,13 +6,58 @@
     <description>Recent content in Tags on Gunmo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 22 Nov 2020 07:52:03 +0900</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 20:18:32 +0900</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Array</title>
+      <link>/tags/array/</link>
+      <pubDate>Fri, 27 Nov 2020 20:18:32 +0900</pubDate>
+      
+      <guid>/tags/array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Mon, 23 Nov 2020 09:31:02 +0900</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>/tags/ssh/</link>
+      <pubDate>Mon, 23 Nov 2020 09:31:02 +0900</pubDate>
+      
+      <guid>/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>window-server</title>
+      <link>/tags/window-server/</link>
+      <pubDate>Mon, 23 Nov 2020 09:31:02 +0900</pubDate>
+      
+      <guid>/tags/window-server/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Recursion</title>
       <link>/tags/recursion/</link>
       <pubDate>Sun, 22 Nov 2020 07:52:03 +0900</pubDate>
       
       <guid>/tags/recursion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>/tags/aws/</link>
+      <pubDate>Sat, 21 Nov 2020 19:07:56 +0900</pubDate>
+      
+      <guid>/tags/aws/</guid>
       <description></description>
     </item>
     
