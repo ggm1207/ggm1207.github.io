@@ -146,7 +146,7 @@
         border-radius: 0.5rem;
     }
 
-    .post_content a {
+    .post_meta > .post_tag {
         color: white;
     }
 
@@ -368,7 +368,7 @@
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="ln">1</span><span class="nb">alias</span> <span class="nv">c</span><span class="o">=</span><span class="s2">&#34;clear&#34;</span>
 </code></pre></div><p>이런걸 한글로 별칭이라고 하죠. 미리 입력해둠으로써 Ubuntu Shell과 Window Powershell의 괴리감을 최대한 줄여주도록 합니다.</p>
 <p><strong>사실 진짜 중요한 부분은 이겁니다</strong></p>
-<p>제가 Vim을 설치했는데 Window powershell에서는 vim을 입력하면 작동이 잘 됩니다. 근데 linux에서 접근한 powershell에서는 vim이 작동이 안 됩니다.</p>
+<p>제가 Vim을 설치했는데 Window powershell에서는 vim을 입력하면 작동이 잘 됩니다. 근데 linux에서 접근한 powershell에서는 vim이 작동이 안 됩니다. 분명 같은 Local에서 Powershell을 실행중이고 차이점이 있다면 RDP로 접속했냐 아니면 SSH로 접속했냐인데.. 찾아보니 관련 이슈가 있었습니다.</p>
 <div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="ln">1</span><span class="c"># type vim in powershell, window</span>
 <span class="ln">2</span><span class="n">vim</span> <span class="c"># 작동 함</span>
 <span class="ln">3</span><span class="c"># type vim in powershell, linux</span>
@@ -384,15 +384,15 @@
 <div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="ln"> 1</span><span class="c"># 1. profile 체크</span>
 <span class="ln"> 2</span><span class="nb">Test-Path</span> <span class="nv">$profile</span> 
 <span class="ln"> 3</span>
-<span class="ln"> 4</span><span class="c"># 1-1. profile이 없을 경우</span>
+<span class="ln"> 4</span><span class="c"># 1-1. profile이 없을 경우 profile 생성</span>
 <span class="ln"> 5</span><span class="nb">New-item</span> <span class="n">-Path</span> <span class="nv">$profile</span> <span class="n">-type</span> <span class="n">file</span> <span class="n">-force</span>
 <span class="ln"> 6</span>
 <span class="ln"> 7</span><span class="c"># 2. profile이 있는 경우</span>
 <span class="ln"> 8</span><span class="c"># powershell 실행 시 스크립트 자동 적용</span>
 <span class="ln"> 9</span><span class="p">&gt;&gt;&gt;</span> <span class="n">powershell</span>
 <span class="ln">10</span>
-<span class="ln">11</span><span class="c"># 3. 이 시스템에서 스크립트를 실행할 수 없으므로 .... 오류 발생 시 ( 보안 오류: PSSecurityException )</span>
-<span class="ln">12</span><span class="c"># powershell 관리자 권한으로 실행 후</span>
+<span class="ln">11</span><span class="c"># 3. &#34;이 시스템에서 스크립트를 실행할 수 없으므로&#34; 오류 발생 시 ( 보안 오류: PSSecurityException )</span>
+<span class="ln">12</span><span class="c"># powershell 관리자 권한으로 실행 후 아래 작업 수행</span>
 <span class="ln">13</span>
 <span class="ln">14</span><span class="c"># 4. 본인의 권한 확인</span>
 <span class="ln">15</span><span class="nb">Get-ExecutionPolicy</span>
