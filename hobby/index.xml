@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Gunmo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 23 Nov 2020 09:31:02 +0900</lastBuildDate><atom:link href="/hobby/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 22:07:05 +0900</lastBuildDate><atom:link href="/hobby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trading-Bot구현 및 끝맺음.</title>
+      <link>/hobby/trading-bot-003/</link>
+      <pubDate>Fri, 04 Dec 2020 22:07:05 +0900</pubDate>
+      
+      <guid>/hobby/trading-bot-003/</guid>
+      <description>이전 포스트를 작성하고 난 후 한 일주일 동안은 주야장천 trading-bot을 구현했던 것 같다. 파이썬으로 구현하기에 좋은 튜토리얼이 있어서 그거를 따라 해서 구현을 했다.
+튜토리얼을 진행하면서 짠 코드들은 유지보수가 어렵다고 판단됐기 때문에 이번 포스트에서는 어떠한 변화를 줌으로써 코드를 좀 더 보기 좋게 만들었는지 쓰려고 한다.
+물론 내가 사용한 패턴이 상책은 아니지만, 기존의 코드보다는 유지 보수하기에 더 쉽다고 생각한다. 그렇다고 기존 코드를 비하하는 것은 아니다. 좋은 튜토리얼이 있었기 때문에 나 또한 이 작업을 할 수 있었기 때문이다.</description>
+    </item>
+    
     <item>
       <title>Linux에서 SSH로 Window Server 이용하기</title>
       <link>/hobby/trading-bot-002/</link>

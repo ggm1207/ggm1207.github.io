@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Gunmo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2020, Steve Francia and Gunmo Goo; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 27 Nov 2020 20:18:32 +0900</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 22:07:05 +0900</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>clean code</title>
+      <link>/tags/clean-code/</link>
+      <pubDate>Fri, 04 Dec 2020 22:07:05 +0900</pubDate>
+      
+      <guid>/tags/clean-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kiwoom open api</title>
+      <link>/tags/kiwoom-open-api/</link>
+      <pubDate>Fri, 04 Dec 2020 22:07:05 +0900</pubDate>
+      
+      <guid>/tags/kiwoom-open-api/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Array</title>
       <link>/tags/array/</link>
